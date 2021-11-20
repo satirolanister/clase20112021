@@ -74,7 +74,7 @@ public class Documentos
         @Override
             public void actionPerformed(ActionEvent e)
             {
-                //archivoAbierto();
+                guardarArchivo();
             }
         });
         salir.addActionListener(new ActionListener() {
